@@ -6,7 +6,7 @@ import os
 import streamlit as st
 import PyPDF2
 
-os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY','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')
+os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY','Your Api Key')
 os.environ['LANGCHAIN_TRACKING_V2'] = 'true'
 
 def read_pdf(file):
